@@ -1,27 +1,27 @@
 <template>
     <!-- Navbar start -->
-    <nav class="w-screen fixed bg-opacity-90 bg-white p-4 lg:px-20 flex justify-between z-50">
+    <nav class="fixed z-50 flex justify-between w-screen p-4 bg-white bg-opacity-90 lg:px-20">
 		<!-- Logo start -->
-		<div class="h-full flex flex-col justify-center">
-			<p class="tracking-widest font-semibold">LANDING</p>
-			<p class="tracking-widest font-light">PHOTOGRAPHY</p>
+		<div class="flex flex-col justify-center h-full">
+			<p class="font-semibold tracking-widest">Madeil</p>
+			<p class="font-light tracking-widest">Solutions</p>
 		</div>
 		<!-- Logo end -->
 
 		<!-- Toggler start -->
 		<button role="menubar" class="md:hidden" @click="navToggle()">
-			<i class="fa-solid fa-bars text-2xl"></i>
+			<i class="text-2xl fa-solid fa-bars"></i>
 		</button>
 		<!-- Toggler end -->
 
 		<!-- Menu content start -->
-		<div class="absolute left-0 right-0 translate-y-16 bg-opacity-90 bg-white md:bg-none md:bg-opacity-0 shadow hidden md:flex flex-col gap-4 items-center p-4 md:flex-row md:static md:shadow-none md:translate-y-0" role="menu" aria-expanded="false">
+		<div class="absolute left-0 right-0 flex-col items-center hidden gap-4 p-4 translate-y-16 bg-white shadow bg-opacity-90 md:bg-none md:bg-opacity-0 md:flex md:flex-row md:static md:shadow-none md:translate-y-0" role="menu" aria-expanded="false">
 			<!-- Links start -->
 			<a href="#" role="menuitem">
 				<p class="mx-4">Home</p>
 			</a>
 
-			<a href="#" role="menuitem">
+			<a href="#about-section" role="menuitem">
 				<p class="mx-4">About</p>
 			</a>
 
