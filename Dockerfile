@@ -16,9 +16,9 @@ RUN mkdir /app
 COPY --from=build-stage /app/dist /app
 
 # Copy the SSL certificates and configure Nginx to use them
-COPY path/to/madeil_live.crt /etc/ssl/certs/madeil_live.crt
-COPY path/to/madeil_live.key /etc/ssl/private/madeil_live.key
-COPY path/to/madeil_live.ca-bundle /etc/ssl/certs/madeil_live.ca-bundle
+COPY /etc/ssl/certs/madeil_live.crt /etc/ssl/certs/madeil_live.crt
+COPY /etc/ssl/private/madeil_live.key /etc/ssl/private/madeil_live.key
+COPY /etc/ssl/certs/madeil_live.ca-bundle /etc/ssl/certs/madeil_live.ca-bundle
 
 # Copy your custom Nginx configuration file (ensure it is set up for SSL)
 COPY nginx.conf /etc/nginx/nginx.conf
