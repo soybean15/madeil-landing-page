@@ -25,13 +25,14 @@
 				<p class="mx-4">About</p>
 			</a>
 
-			<a href="#" role="menuitem">
+			<a href="#portfolio-section" role="menuitem">
 				<p class="mx-4">Explore</p>
 			</a>
-
+			<a href="#contact-section" role="menuitem">
 			<button class="btn" role="menuitem">
 				Contact us
 			</button>
+			</a>
 			<!-- Links end -->
 		</div>
 		<!-- Menu content end -->

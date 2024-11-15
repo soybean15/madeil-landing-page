@@ -1,15 +1,15 @@
 <template>
     <!-- Footer start -->
-    <div class="bg-stone-700 w-full flex justify-center items-center md:justify-evenly flex-col md:flex-row gap-8 p-8">
+    <div class="flex flex-col items-center justify-center w-full gap-8 p-8 bg-stone-700 md:justify-evenly md:flex-row">
         <!-- Overview start -->
-        <div class="text-stone-100 text-center">
-            <p class="tracking-widest font-semibold text-stone-100">LANDING</p>
-            <p class="tracking-widest font-light text-stone-100">PHOTOGRAPHY</p>
+        <div class="text-center text-stone-100">
+            <p class="font-semibold tracking-widest text-stone-100">Madeil</p>
+            <p class="font-light tracking-widest text-stone-100">Solutions</p>
         </div>
         <!-- Overview end -->
 
         <!-- Links start -->
-        <div class="text-stone-100 flex justify-center items-center gap-8">
+        <div class="flex items-center justify-center gap-8 text-stone-100">
 			<a href="#">
 				<i class="fa-brands fa-instagram socialIcon"></i>
 			</a>
